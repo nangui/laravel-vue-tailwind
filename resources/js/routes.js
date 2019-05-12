@@ -1,4 +1,4 @@
-import Home from './components/Home';
+let Home = () => import(/* webpackChunkName: "loaders" */'./components/Home');
 import Project from './components/Project';
 import NotFound from './components/NotFound';
 
