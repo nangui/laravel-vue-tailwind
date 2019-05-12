@@ -8,7 +8,7 @@
     </head>
     <body>
         <div id="app">
-            <router-link to="/">Home</router-link>
+            <router-link :to="{ name: 'home' }" exact>Home</router-link>
             <router-link :to="{ name: 'projects' }">Projects</router-link>
             <hr>
             <router-view></router-view>
